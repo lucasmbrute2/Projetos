@@ -105,6 +105,9 @@ section#sobre-mim div img{
 
     width: 60%;
     border-radius: 50%;
+    display: block;
+    margin: auto
+
 }
 section#sobre-mim div p{
 
@@ -116,9 +119,9 @@ section#sobre-mim div p{
 section#projetos{
 
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    padding: 1rem;
+    justify-content: center; /*Alinha os itens horizontalmente*/
+    /* align-items: center; Alinha os itens verticalmente      */
+    padding: 1rem; /*Espaçamento interno nos elementos*/
 }
 
 section#projetos div{
@@ -127,8 +130,12 @@ section#projetos div{
 }
 
 section#projetos div img{
+    
+    /*Essas duas linhas abaixo, alinham o elemento (tag) centralmente */
     display: block;
     margin: auto;
+    
+    
     width: 250px;
     margin-top: 2rem;
 }
@@ -177,4 +184,29 @@ section#projetos div button:hover{
     
     color: black;
     transform: scale(1.2)
+}
+
+
+section#contato{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+section#contato div#redes h3{
+
+    padding: 3rem 10rem 3rem 10rem; /* Sentido horario: Cima, direita , baixo, esquerda */
+    text-align: center;
+    font-size: 3rem;
+    flex-wrap: wrap; /* Quebra o conteúdo para a próxima linha caso não haja mais espaço para esse conteúdo na tela */
+}
+
+
+section#contato div#redes a{
+
+    padding: 5rem;
+    font-size: 5rem;
+
+
 }
