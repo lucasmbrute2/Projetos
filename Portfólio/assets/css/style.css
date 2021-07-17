@@ -1,7 +1,7 @@
 /* RESETANDO MARGEM */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
 *{
     margin: 0;
@@ -188,25 +188,121 @@ section#projetos div button:hover{
 
 
 section#contato{
+    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  /* Quebra o conteúdo para a próxima linha caso não haja mais espaço para esse conteúdo na tela */
+}
+
+section#contato div#redes{
+    
+    background-color: whitesmoke;
+    width: 100%;  /* Faz com que a div rede ocupe 100% do espaço na tela */
+    
+}
+
+section#contato div#redes h3{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+section#contato div#redes div#icons{
 
     display: flex;
     justify-content: center;
     
 }
 
-section#contato div#redes h3{
 
-    padding: 3rem 10rem 3rem 10rem; /* Sentido horario: Cima, direita , baixo, esquerda */
-    text-align: center;
+section#contato div#redes div#icons a{
+    
+    
+    padding: 2rem;
     font-size: 3rem;
-    flex-wrap: wrap; /* Quebra o conteúdo para a próxima linha caso não haja mais espaço para esse conteúdo na tela */
+    color: black;
 }
 
+section#contato div#redes div#icons a:hover{
 
-section#contato div#redes a{
+    color: rgb(76, 163, 68)
+}
 
-    padding: 5rem;
-    font-size: 5rem;
+section#contato div#redes div#icons a i{
+
+    transition: .3s ease-out;
+}
+
+section#contato div#redes div#icons a i:hover{
+
+    transform: scale(1.2);
 
 
+}
+
+section#contato div#form{
+
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#contato div#form h3{
+
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+
+}
+
+section#contato div#form form{
+
+    width: 50%;
+}
+
+section#contato div#form form input,textarea{
+
+    width: 100%;
+    padding: .1rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border: 1px solid #ccc;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+     outline: none; /*Retira a borda do input quando clico dentro dele */
+    
+}
+
+section#contato div#form form label{
+
+    font-size: 1.2rem;
+
+}
+
+section#contato div#form form button{
+
+    border: 1px solid black;
+    background-color: #fff;
+    padding: .9rem;
+    font-size: .8vw;
+    font-weight: 600;
+    border-radius: .6rem;
+    display: block;
+    margin-left: 38.5rem;
+    cursor: pointer;
+    transition: .4s ease-out;
+    width: 17%;
+}
+
+section#contato div#form form button:hover{
+    
+    transform: scale(1.1);
 }
