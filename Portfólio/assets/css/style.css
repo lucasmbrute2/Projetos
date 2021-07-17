@@ -54,6 +54,7 @@ header{
     align-items: center;
     padding: 3rem;
     margin-left: 20rem;
+    
 }
 
 header div#img-coding {
@@ -83,7 +84,7 @@ header div span{
 
     font-size: 0.7vw;
     font-weight: 400;
-    margin-left: 15rem;
+    justify-content: center;
     font-family: 'Noto Sans JP', sans-serif;
 } 
 
@@ -97,7 +98,8 @@ section#sobre-mim{
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    
     
 }
 
@@ -117,16 +119,19 @@ section#sobre-mim div p{
 }
 
 section#projetos{
-
+    
+    flex-wrap: wrap;
     display: flex;
     justify-content: center; /*Alinha os itens horizontalmente*/
     /* align-items: center; Alinha os itens verticalmente      */
     padding: 1rem; /*Espaçamento interno nos elementos*/
+
 }
 
 section#projetos div{
-
-    padding: 2rem;
+    
+    width: 15rem;
+    padding: 4rem;
 }
 
 section#projetos div img{
@@ -143,6 +148,7 @@ section#projetos div img{
 
 section#projetos div h2{
 
+    
     padding: 1rem;
     text-align: center;
 
