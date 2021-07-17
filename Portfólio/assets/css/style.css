@@ -246,7 +246,7 @@ section#contato div#redes div#icons a i:hover{
 
 section#contato div#form{
 
-    
+    margin-bottom: 4rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -263,6 +263,7 @@ section#contato div#form h3{
 }
 
 section#contato div#form form{
+
 
     width: 50%;
 }
