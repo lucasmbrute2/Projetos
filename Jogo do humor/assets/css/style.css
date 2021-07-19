@@ -1,26 +1,35 @@
+*{
 
-section#iniciante img{
-
-    width: 20%;
-    
-}
-
-    
-section#jr img{
-
-    width: 18%;
-}
-    
-
-section#pleno img{
-
-    width: 15%;
+    margin: 0;
+    padding: 0;
 
 }
 
 
-section#senior img{
+section#infos{
 
-    width: 20%;
+    text-align: center;
+    padding: 5rem;
 
 }
+
+section#infos button{
+
+    margin-top: 5rem;
+}
+
+
+
+section#infos div#txt span#descricao{
+
+    margin-bottom: 5rem;
+
+}
+
+section#infos img#imagem{
+
+    margin-top: 5rem;
+    width: 23%;
+
+}
+
