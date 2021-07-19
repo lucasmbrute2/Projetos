@@ -1,8 +1,10 @@
+
 *{
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
-
+    
+    
 }
 
 
@@ -26,7 +28,7 @@ section#infos button#alterar{
 
 
 section#infos div#txt{
-
+    
     font-size: 1.3rem;
     font-weight: 300;
 }

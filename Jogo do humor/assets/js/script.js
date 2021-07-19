@@ -26,7 +26,7 @@ elementoButton.addEventListener('click', () =>{
     } else if(elementoButton.value == 'terceiro'){
 
         elementoImg.src = "./assets/img/senior.png"
-        elementoNome.innerText = " Desenvolvedor Senior"
+        elementoNome.innerText = " Desenvolvedor Sênior"
         elementoDesc.innerText = "Você chegou no ápice."
         nomeButton.innerText = "Voltar ao início do ciclo"
         elementoButton.value = "quarto"
