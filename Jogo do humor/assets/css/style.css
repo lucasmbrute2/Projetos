@@ -1,5 +1,5 @@
 *{
-
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
 
@@ -13,16 +13,27 @@ section#infos{
 
 }
 
-section#infos button{
+section#infos button#alterar{
 
-    margin-top: 5rem;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-top: 4rem;
+    border: 2px solid;
+    cursor: pointer;
 }
 
 
 
-section#infos div#txt span#descricao{
 
-    margin-bottom: 5rem;
+section#infos div#txt{
+
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+section#infos div#txt span#descricao{
+    
+   margin-top: 5rem;
 
 }
 
