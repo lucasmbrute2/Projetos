@@ -5,13 +5,16 @@ let button = document.querySelector('#enviar')
 
 
 inputNome.addEventListener('keyup',()=>{
-
+   
     if(inputNome.value.length <2){
         inputNome.style.borderColor = "red"
     } else {
      inputNome.style.borderColor = "green"
     }
 
+    if(inputNome.value == ""|| inputNome.value == null){
+        inputNome.style.borderColor = "#ccc"
+    }
 })
 
 inputEmail.addEventListener("keyup", ()=>{
@@ -23,7 +26,10 @@ inputEmail.addEventListener("keyup", ()=>{
     } else {
      inputEmail.style.borderColor = 'green'
     }
-
+    
+    if(inputEmail.value == "" || inputEmail.value == null){
+        inputEmail.style.borderColor = '#ccc'
+    }
 })
 
 textareaMensagem.addEventListener('keydown', () =>{
@@ -36,6 +42,10 @@ textareaMensagem.addEventListener('keydown', () =>{
         textareaMensagem.style.borderColor = 'red'
     }
 
+    if(textareaMensagem.value == "" || textareaMensagem.value == nul){
+
+        textareaMensagem.style.borderColor = "#ccc"
+    }
 
 })
 
