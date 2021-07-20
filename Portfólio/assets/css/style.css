@@ -1,8 +1,7 @@
 /* RESETANDO MARGEM */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -279,7 +278,7 @@ section#contato div#form form input,textarea{
 
     width: 100%;
     padding: .1rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     border: 1px solid #ccc;

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
 
 *{
     background-color: whitesmoke;
@@ -7,13 +10,30 @@
     
 }
 
+header#titulo h1{
+
+    background-color: #184e77;
+    text-align: center;
+    padding: 2vw;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+    
 
 section#infos{
 
     text-align: center;
-    padding: 5rem;
+    padding: 3rem;
 
 }
+
+section#infos div#txt{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 
 section#infos button#alterar{
 
@@ -27,15 +47,10 @@ section#infos button#alterar{
 
 
 
-section#infos div#txt{
-    
-    font-size: 1.3rem;
-    font-weight: 300;
-}
 
 section#infos div#txt p#descricao{
     
-   margin-top: 5rem;
+   margin-top: 3rem;
 
 }
 
