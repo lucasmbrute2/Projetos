@@ -121,10 +121,10 @@ section#sobre-mim{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin: 7rem 10rem 7rem 10rem;
     
     border-radius: 10px;
-    background-image: linear-gradient(#e0aaff,#3c096c)
+    background-image: linear-gradient(#fff,whitesmoke)
 }
 
 section#sobre-mim div img{
@@ -137,12 +137,12 @@ section#sobre-mim div img{
 section#sobre-mim div p{
 
     font-family: 'Uchen', serif;
-    color: whitesmoke;
+    color: black;
     
     font-size: 1.1rem;
     margin-right: 15rem;
 
-    text-shadow: .1em .1em .2em black
+    
 }
 
 section#projetos{
