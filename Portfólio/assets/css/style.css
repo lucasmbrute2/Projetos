@@ -10,6 +10,9 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     
+    
+    
+
 }  
 
 
@@ -18,13 +21,14 @@ html{
     scroll-behavior: smooth;
     
 }
+
 nav{
     
     
     position: fixed;
     width: 100%;
-    background-image: linear-gradient(#47126b,#ff5c8a);
-    
+    background-color: black;
+    opacity: 0.8;
     
     
 }
@@ -34,35 +38,43 @@ nav ul{
 
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 36rem;
 }
 
 nav ul li{
     
-    
-    padding: 2rem;
+    padding: 1rem;
 }
 
 
 nav ul li a{
 
     text-decoration: none;
-    color: #fff;
+    color: rgb(185, 181, 181);
     text-shadow: black 0.1em 0.1em 0.2em;
     font-weight: 400;
+    font-size: .9rem;
+    transition: .3s ease-out;
 }
 
+nav ul li a:hover{
+
+    color: #fff;
+
+}
 header{
     
     background-image: url("/Portfólio/assets/img/wallpaperfullhd.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    
+    padding: 29rem;
     
     /* justify-content: end; */
     
-    padding: 29rem;
+    
     text-align: left;
     
 }
@@ -109,26 +121,28 @@ section#sobre-mim{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
     
     
-    
+    border-radius: 10px;
+    background-image: linear-gradient(#e0aaff,#3c096c)
 }
 
 section#sobre-mim div img{
-
+    margin: 10rem 5rem 10rem 5rem;
     width: 60%;
     border-radius: 50%;
-    display: block;
-    margin: auto
+    
 
 }
 section#sobre-mim div p{
 
     font-family: 'Uchen', serif;
-    color: black;
-    margin-left: 1rem;
+    color: whitesmoke;
+    
     font-size: 1.1rem;
+    margin-right: 15rem;
+
+    text-shadow: .1em .1em .2em black
 }
 
 section#projetos{
@@ -219,7 +233,7 @@ section#contato{
 
 section#contato div#redes{
     
-    background-color: #1a759f;
+    background-color: #5a189a;
     width: 100%;  /* Faz com que a div rede ocupe 100% do espaço na tela */
     
 }
