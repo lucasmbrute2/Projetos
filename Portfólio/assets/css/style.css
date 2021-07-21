@@ -232,8 +232,8 @@ section#contato{
 }
 
 section#contato div#redes{
+    background-image: linear-gradient(#240046,#7b2cbf);
     
-    background-color: #5a189a;
     width: 100%;  /* Faz com que a div rede ocupe 100% do espaço na tela */
     
 }
@@ -244,7 +244,7 @@ section#contato div#redes h3{
     font-size: 2rem;
     margin-bottom: 3rem;
     font-family: 'Poppins', sans-serif;
-    
+    color: whitesmoke
 }
 
 
