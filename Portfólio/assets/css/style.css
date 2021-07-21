@@ -118,7 +118,7 @@ header#inicio div#img-coding img{
 
 section#espacamento{
 
-    background-color: #fff;
+    background-color: #2a2565;
     padding: 5rem;
 
 }
@@ -133,8 +133,8 @@ section#sobre-mim{
     
     
     
-    /* background-image: linear-gradient(#fff,whitesmoke); */
-    background-color: #fff;
+    background-image: linear-gradient(#2a2565,#f0789e); 
+    
 
 
 
@@ -146,17 +146,17 @@ section#sobre-mim div img{
     margin: 0px 268.5px;
     width: 40%;
     border-radius: 50%;
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
 
 }
 section#sobre-mim div p{
 
     font-family: 'Uchen', serif;
-    color: black;
-    margin-bottom: 12rem;
+    color: #fff;
+    margin-bottom: 10rem;
     font-size: 1.1rem;
     margin-right: 15rem;
-    
+    text-shadow: 0.1em 0.1em 0.2em black;
     
 }
 
@@ -167,7 +167,7 @@ section#projetos{
     justify-content: center; /*Alinha os itens horizontalmente*/
     /* align-items: center; Alinha os itens verticalmente      */
     padding: 1rem; /*Espaçamento interno nos elementos*/
-    background-image: linear-gradient(#9f3983,#2a2565); 
+    background-image: linear-gradient(#f0789e,#2a2565); 
 }
 
 section#projetos div{
@@ -204,7 +204,7 @@ section#projetos div p{
     justify-content: justify;
     font-family: 'Uchen', serif;
     font-size: 1.1rem;
-    color: rgb(235, 231, 231);
+    color: rgb(219, 198, 198);
     text-shadow: 0.1em 0.1em 0.2em black;
 }
 
@@ -250,7 +250,7 @@ section#contato{
 }
 
 section#contato div#redes{
-    background-image: linear-gradient(#240046,#7b2cbf);
+    background-color: #2a2565;
     
     width: 100%;  /* Faz com que a div rede ocupe 100% do espaço na tela */
     
@@ -306,6 +306,7 @@ section#contato div#form{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 section#contato div#form h3{
@@ -316,7 +317,7 @@ section#contato div#form h3{
     text-align: center;
     margin-bottom: 2rem;
     font-size: 2rem;
-
+    
 }
 
 section#contato div#form form{
