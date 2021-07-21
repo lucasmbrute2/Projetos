@@ -1,11 +1,15 @@
 /* RESETANDO MARGEM */
 
 @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Uchen', serif;
+    font-family: 'Roboto', sans-serif;
+    
 }  
 
 
@@ -16,10 +20,10 @@ html{
 }
 nav{
     
+    
     position: fixed;
     width: 100%;
-    background-color: rgb(146, 227, 169);
-   
+    background-image: linear-gradient(#47126b,#ff5c8a);
     
     
     
@@ -35,33 +39,57 @@ nav ul{
 
 nav ul li{
     
-    padding: 1rem;
+    
+    padding: 2rem;
 }
 
 
 nav ul li a{
 
     text-decoration: none;
-    color: black;
+    color: #fff;
+    text-shadow: black 0.1em 0.1em 0.2em;
     font-weight: 400;
 }
 
 header{
-    background-color: #fff;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    padding: 3rem;
-    margin-left: 20rem;
+    
+    background-image: url("/Portfólio/assets/img/wallpaperfullhd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    
+    /* justify-content: end; */
+    
+    padding: 29rem;
+    text-align: left;
     
 }
 
 header div#img-coding {
-
+    
+    
     display: flex;
     /* justify-content: center; */
     
 }
+
+
+header div p{
+    
+    font-size: 2vw;     
+    font-weight: 700;
+    color: #fff;
+    /* margin-left: 5rem; */
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+    
+    
+} 
+
 
 
 header div#img-coding img{
@@ -69,23 +97,8 @@ header div#img-coding img{
     width: 50%;
 }
 
-header div p{
-    
-    font-size: 2vw;     
-    font-weight: 700;
-    color: rgb(108, 184, 108);
-    /* margin-left: 5rem; */
-    font-family: 'Noto Sans JP', sans-serif;
-    width: 400px;
-}
 
-header div span{
 
-    font-size: 0.7vw;
-    font-weight: 400;
-    justify-content: center;
-    font-family: 'Noto Sans JP', sans-serif;
-} 
 
 
 
@@ -97,7 +110,7 @@ section#sobre-mim{
     justify-content: center;
     align-items: center;
     padding: 4rem;
-    background-color: whitesmoke;
+    
     
     
 }
@@ -112,9 +125,10 @@ section#sobre-mim div img{
 }
 section#sobre-mim div p{
 
+    font-family: 'Uchen', serif;
     color: black;
     margin-left: 1rem;
-    
+    font-size: 1.1rem;
 }
 
 section#projetos{
@@ -148,7 +162,7 @@ section#projetos div img{
 
 section#projetos div h2{
 
-    
+    font-family: 'Poppins', sans-serif;
     padding: 1rem;
     text-align: center;
 
@@ -157,7 +171,9 @@ section#projetos div h2{
 section#projetos div p{
 
     justify-content: justify;
-
+    font-family: 'Uchen', serif;
+    font-size: 1.1rem;
+    
 }
 
 
@@ -203,7 +219,7 @@ section#contato{
 
 section#contato div#redes{
     
-    background-color: whitesmoke;
+    background-color: #1a759f;
     width: 100%;  /* Faz com que a div rede ocupe 100% do espaço na tela */
     
 }
@@ -211,8 +227,10 @@ section#contato div#redes{
 section#contato div#redes h3{
     margin-top: 3rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 
@@ -235,7 +253,7 @@ section#contato div#redes div#icons a{
 
 section#contato div#redes div#icons a:hover{
 
-    color: rgb(76, 163, 68)
+    color: #fff
 }
 
 section#contato div#redes div#icons a i{
@@ -251,7 +269,7 @@ section#contato div#redes div#icons a i:hover{
 }
 
 section#contato div#form{
-
+    
     margin-bottom: 4rem;
     display: flex;
     justify-content: center;
@@ -259,12 +277,13 @@ section#contato div#form{
 }
 
 section#contato div#form h3{
-
+    
+    font-family: 'Poppins', sans-serif;
     margin-top: 3rem;
     width: 100%;
     text-align: center;
     margin-bottom: 2rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 
 }
 
@@ -290,6 +309,7 @@ section#contato div#form form input,textarea{
 
 section#contato div#form form label{
 
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
 
 }
