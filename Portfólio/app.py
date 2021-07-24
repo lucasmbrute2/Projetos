@@ -46,22 +46,24 @@ def send():
             sender = app.config.get('MAIL_USERNAME'),
             recipients = [app.config.get('MAIL_USERNAME')], 
             body = f'''
+                O {formContato.nome} com o e-mail {formContato.email}, envigou a seguinte mensagem:
 
+                {formContato.mensagem}
             '''
         
         )
-         
-        
-
-
-
-
-
-
-
-
+        mail.send(msg)
+    return render_template('send.html', formContatocontato = formContato)
 
 
 
 if __name__ == "__main__":  
     app.run(debug=True)
+
+
+
+
+
+
+
+
