@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, config, render_template, request, redirect
 from flask_mail import Mail, Message
 
 app = Flask(__name__)
@@ -9,8 +9,8 @@ mail_settings = {
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
-    "MAIL_USERNAME": 'seu_email',
-    "MAIL_PASSWORD": 'sua_senha'
+    "MAIL_USERNAME": 'lucas.soruz.dev@gmail.com',
+    "MAIL_PASSWORD": 'soruz.dev'
 }
 
 app.config.update(mail_settings)
@@ -39,10 +39,29 @@ def send():
             request.form['mensagem']
 
         )
-        msg = Message()
         
+        msg = Message(
+
+            subject= "Contato Portfólio",
+            sender = app.config.get('MAIL_USERNAME'),
+            recipients = [app.config.get('MAIL_USERNAME')], 
+            body = f'''
+
+            '''
         
+        )
+         
         
 
-if __name__ == '__main__ ':
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":  
     app.run(debug=True)
