@@ -49,13 +49,13 @@ textareaMensagem.addEventListener('keydown', () =>{
 
 })
 
-button.addEventListener('click', ()=>{
+// button.addEventListener('click', ()=>{
 
-    if(inputEmail.style.borderColor == 'green' && inputNome.style.borderColor == "green"&& textareaMensagem.style.borderColor == 'green'){
-        alert("Formulário enviado com sucesso!")
-    }  else{
-        alert('Preencha todas as informações corretamente')
-    }
+//     if(inputEmail.style.borderColor == 'green' && inputNome.style.borderColor == "green"&& textareaMensagem.style.borderColor == 'green'){
+//         alert("Formulário enviado com sucesso!")
+//     }  else{
+//         alert('Preencha todas as informações corretamente')
+//     }
 
 
-})
+// })
