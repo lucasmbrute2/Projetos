@@ -2,6 +2,10 @@ let inputNome = document.querySelector('#nome')
 let inputEmail = document.querySelector('#email')
 let textareaMensagem = document.querySelector('#mensagem')
 let button = document.querySelector('#enviar')
+let show_button = document.querySelector('#carregamento')
+let form = document.querySelector('form')
+let tituloForm = document.querySelector('#tituloFormulario')
+
 
 
 inputNome.addEventListener('keyup',()=>{
@@ -49,13 +53,16 @@ textareaMensagem.addEventListener('keydown', () =>{
 
 })
 
-// button.addEventListener('click', ()=>{
+button.addEventListener('click', ()=>{
 
-//     if(inputEmail.style.borderColor == 'green' && inputNome.style.borderColor == "green"&& textareaMensagem.style.borderColor == 'green'){
-//         alert("Formulário enviado com sucesso!")
-//     }  else{
-//         alert('Preencha todas as informações corretamente')
-//     }
+    if(inputEmail.style.borderColor == 'green' && inputNome.style.borderColor == "green"&& textareaMensagem.style.borderColor == 'green'){
+    show_button.style.display = 'flex'
+    form.style.display = 'none'
+    tituloFormulario.style.display = 'none'
+} else {
+    alert('Preencha todos os campos')
+}   
+    
+    
 
-
-// })
+})
