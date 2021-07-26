@@ -6,9 +6,9 @@ let show_button = document.querySelector('#carregamento')
 let form = document.querySelector('form')
 let tituloForm = document.querySelector('#tituloFormulario')
 let input = document.querySelectorAll('input')
-let check_nome = false
-let check_email = false
-let check_mensagem = false
+let check_nome 
+let check_email 
+let check_mensagem 
 
 
 button.style.display = 'none'
