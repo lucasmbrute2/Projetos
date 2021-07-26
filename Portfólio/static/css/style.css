@@ -347,7 +347,7 @@ section#contato div#form form label{
 
 }
 
-section#contato div#form form button{
+section#contato div#form form button#enviar{
 
     border: 1px solid black;
     background-color: #fff;
@@ -355,11 +355,12 @@ section#contato div#form form button{
     font-size: .8vw;
     font-weight: 600;
     border-radius: .6rem;
-    display: block;
+    
     margin-left: 38.5rem;
     cursor: pointer;
     transition: .4s ease-out;
     width: 17%;
+    
 }
 
 section#contato div#form form button:hover{
