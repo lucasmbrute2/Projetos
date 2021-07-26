@@ -10,10 +10,6 @@ let check_nome
 let check_email 
 let check_mensagem 
 
-
-button.style.display = 'none'
-
-
 inputNome.addEventListener('keyup',()=>{
    
     if(inputNome.value.length >2){
@@ -103,6 +99,4 @@ form.addEventListener('submit', ()=>{
 
     }   
     
-
-
 })

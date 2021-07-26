@@ -355,7 +355,7 @@ section#contato div#form form button#enviar{
     font-size: .8vw;
     font-weight: 600;
     border-radius: .6rem;
-    
+    display: none;
     margin-left: 38.5rem;
     cursor: pointer;
     transition: .4s ease-out;
