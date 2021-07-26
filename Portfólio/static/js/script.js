@@ -90,7 +90,7 @@ textareaMensagem.addEventListener('keydown', () =>{
 
 
 
-button.addEventListener('click', ()=>{
+form.addEventListener('submit', ()=>{
 
     if(inputEmail.style.borderColor == 'green' && inputNome.style.borderColor == "green"&& textareaMensagem.style.borderColor == 'green'){
     show_button.style.display = 'flex'
