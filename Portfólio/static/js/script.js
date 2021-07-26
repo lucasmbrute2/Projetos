@@ -42,12 +42,13 @@ inputEmail.addEventListener("keyup", ()=>{
         inputEmail.style.borderColor = 'red'
         check_email = false
     } else {
-    inputEmail.style.borderColor = 'green'
-    
+        inputEmail.style.borderColor = 'green'
         
         if(inputEmail.style.borderColor = 'green'){
             check_email = true
         }
+    
+        
     }
     
     
